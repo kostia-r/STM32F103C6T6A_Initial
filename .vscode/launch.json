@@ -1,0 +1,51 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "STlink",
+            "cwd": "${workspaceRoot}",
+            "executable": "${workspaceRoot}/build/STM32F103C6T6A_Initial.elf",
+            "request": "launch",
+            "type": "cortex-debug",
+            "servertype": "stutil",
+            "device": "STM32F103C6T",
+            "interface": "swd",
+            "preLaunchTask": "Build all",
+            "preRestartCommands": [
+                "Build all",
+                "enable breakpoint",
+                "monitor reset"
+            ],
+            //"runToEntryPoint": "main",
+            "runToMain": true,
+            "svdFile": "${workspaceRoot}/STM32F103.svd", // Include svd to watch device peripherals
+            "swoConfig": {} // currently (v1.7.0) not supported
+        },
+        {
+            "name": "OpenOCD",
+            "cwd": "${workspaceRoot}",
+            "executable": "${workspaceRoot}/build/STM32F103C6T6A_Initial.elf",
+            "request": "launch",
+            "type": "cortex-debug",
+            "servertype": "openocd",
+            "device": "STM32F103C6T",
+            "interface": "swd",
+            "preLaunchTask": "Build all",
+            "preRestartCommands": [
+                "Build all",
+                "enable breakpoint",
+                "monitor reset"
+            ],
+            //"runToEntryPoint": "main",
+            "runToMain": true,
+            "configFiles": [
+                "interface\\stlink.cfg",
+                "target\\stm32f1x.cfg"
+            ],
+            "svdFile": "${workspaceRoot}/STM32F103.svd", // Include svd to watch device peripherals
+        }
+    ]
+}

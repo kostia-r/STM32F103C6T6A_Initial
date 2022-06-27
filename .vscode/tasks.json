@@ -1,0 +1,33 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build all",
+            "group": "build",
+            "type": "shell",
+            "command": "make",
+            "args": ["all", "-j4"]
+        },
+        {
+            "label": "Build clean",
+            "group": "build",
+            "type": "shell",
+            "command": "make",
+            "args": ["clean"]
+        },
+        {
+            "label": "Flash using St-link",
+            "group": "build",
+            "type": "shell",
+            "command": "make",
+            "args": ["-j4","flashSt"]
+        },
+        {
+            "label": "Flash using openocd",
+            "group": "build",
+            "type": "shell",
+            "command": "make",
+            "args": ["-j4","flashOpenOcd"]
+        },
+    ]
+}

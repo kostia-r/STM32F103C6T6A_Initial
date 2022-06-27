@@ -1,0 +1,581 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-pc-mingw32
+ 
+
+# Make data base, printed on Mon Jun 27 15:35:46 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# makefile (from `makefile', line 138)
+LDSCRIPT = STM32F103C6Tx_FLASH.ld
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+VSCODE_LOG_NATIVE = false
+# makefile (from `makefile', line 16)
+TARGET = STM32F103C6T6A_Initial
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from `makefile', line 100)
+AS_DEFS = 
+# makefile (from `makefile', line 109)
+AS_INCLUDES = 
+# automati 
+c
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile
+CURDIR := c:/Users/krudenko/Workspace/ST/Projects/STM32F103C6T6A_Initial
+# default
+SHELL := sh.exe
+# makefile (from `makefile', line 81)
+BIN = $(CP) -O binary -S
+# environment
+WINDIR = C:\Windows
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# makefile (from `makefile', line 78)
+SZ = $(PREFIX)size
+# makefile (from `makefile', line 131)
+CFLAGS = $(MCU) $(C_DEFS) $(C_INCLUDES) $(OPT) -Wall -fdata-sections -ffunction-sections -g -gdwarf-2 -MMD -MP -MF"$(@:%.o=%.d)"
+# environment
+ONEDRIVE = C:\Users\krudenko\OneDrive
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile (from `makefile', line 1)
+MAKEFILE_LIST :=  makefile
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# makefile (from `makefile', line 77)
+CP = $(PREFIX)objcopy
+# makefile (from `makefile', line 23)
+DEBUG = 1
+# environment
+TMP = C:\Users\krudenko\AppData\Local\Temp
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# makefile (from `makefile', line 76)
+AS = $(PREFIX)gcc -x assembler-with-cpp
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-18159dc5-8608-497b-bf27-79292eade703-sock
+# environment
+VSCODE_CWD = C:\Users\krudenko\Workspace\ST\Projects\STM32F103C6T6A_Initial
+# environment
+PATH = C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;C:\Users\krudenko\AppData\Local\Microsoft\WindowsApps;C:\Users\krudenko\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\krudenko\Workspace\ST\ST_Toolchain\GnuWin32\bin;C:\Users\krudenko\Workspace\ST\ST_Toolchain\arm-gcc\10_2020-q4-major\bin;C:\Users\krudenko\Workspace\ST\ST_Toolchain\stlink-1.7.0-x86_64-w64-mingw32\bin;C:\Users\krudenko\Workspace\ST\ST_Toolchain\openocd-v0.11.0-i686-w64-mingw32\bin;C:\Users\krudenko\Workspace\ST\ST_Toolchain\netcat-win32-1.12;
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+ZES_ENABLE_SYSMAN = 1
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+USERPROFILE = C:\Users\krudenko
+# environment
+DEFLOGDIR = C:\ProgramData\McAfee\Endpoint Security\Logs
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+VSCODE_LOG_STACK = false
+# environment
+NUMBER_OF_PROCESSORS = 8
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# makefile (from `makefile', line 143)
+LDFLAGS = $(MCU) -specs=nano.specs -T$(LDSCRIPT) $(LIBDIR) $(LIBS) -Wl,-Map=$(BUILD_DIR)/$(TARGET).map,--cref -Wl,--gc-sections
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_24604_AYOMJTODGZSJMOUL
+# makefile (from `makefile', line 59)
+ASM_SOURCES = startup_stm32f103x6.s
+# makefile (from `makefile', line 25)
+OPT = -O0 
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+COMPUTERNAME = KRUDENKO-NOUT
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+USERDNSDOMAIN = AD.INTELLIAS.COM
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = krudenko
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\krudenko\AppData\Roaming\Code\CachedData\30d9c6cd9483b2cc586687151bcbcd635f373630
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+LOGONSERVER = \\D 
+C2
+# makefile (from `makefile', line 66)
+PREFIX = arm-none-eabi-
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = Intellias
+# makefile (from `makefile', line 103)
+C_DEFS = -DUSE_HAL_DRIVER -DSTM32F103x6
+# makefile (from `makefile', line 96)
+MCU = $(CPU) -mthumb $(FPU) $(FLOAT-ABI)
+# makefile (from `makefile', line 112)
+C_INCLUDES = -ICore/Inc -IDrivers/STM32F1xx_HAL_Driver/Inc -IDrivers/STM32F1xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Device/ST/STM32F1xx/Include -IDrivers/CMSIS/Include
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# makefile (from `makefile', line 80)
+HEX = $(CP) -O ihex
+# makefile (from `makefile', line 75)
+CC = $(PREFIX)gcc
+# makefile (from `makefile', line 32)
+BUILD_DIR = build
+# makefile (from `makefile', line 121)
+ASFLAGS = $(MCU) $(AS_DEFS) $(AS_INCLUDES) $(OPT) -Wall -fdata-sections -ffunction-sections
+# default
+MAKE_VERSION := 3.81
+# environment
+ST_TOOLCHAIN_DIR = C:\Users\krudenko\Workspace\ST\ST_Toolchain
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# makefile (from `makefile', line 87)
+CPU = -mcpu=cortex-m3
+# environment
+LOCALAPPDATA = C:\Users\krudenko\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# makefile (from `makefile', line 142)
+LIBDIR = 
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 10, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\b0cdbaa7bdd24ea3af73ac02330457da-1.68.1-main-sock
+# environment
+HOMEPATH = \Users\krudenko
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+SYSTEMROOT = C:\Windows
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = 
+ $(notdir $+)
+# environment
+APPDATA = C:\Users\krudenko\AppData\Roaming
+# environment
+TEMP = C:\Users\krudenko\AppData\Local\Temp
+# environment
+COMSPEC = C:\Windows\system32\cmd.exe
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# makefile (from `makefile', line 141)
+LIBS = -lc -lm -lnosys
+# automatic
+^F = $(notdir $^)
+# makefile (from `makefile', line 38)
+C_SOURCES = Core/Src/main.c Core/Src/stm32f1xx_it.c Core/Src/stm32f1xx_hal_msp.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c Core/Src/system_stm32f1xx.c
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = 8e0a
+# environment
+MAKELEVEL := 0
+# makefile (from `makefile', line 156)
+OBJECTS = $(addprefix $(BUILD_DIR)/,$(notdir $(C_SOURCES:.c=.o))) $(addprefix $(BUILD_DIR)/,$(notdir $(ASM_SOURCES:.s=.o)))
+# makefile
+.DEFAULT_GOAL := all
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+VSCODE_PID = 24604
+# environment
+USERDOMAIN_ROAMINGPROFILE = Intellias
+# variable set hash-table stats:
+# Load=118/1024=12%, Rehash=0, Collisions=15/180=8%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# C:\Users\krudenko\AppData\Local\Microsoft\WindowsApps (key C:/Users/krudenko/AppData/Local/Microsoft/WindowsApps, mtime 1655887037): 13 files, no impossibilities.
+# C:\Windows\System32\WindowsPowerShell\v1.0\ (key C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1655114434): 32 files, no impossibilities.
+# C:\Windows\System32\Wbem (key C:/Windows/System32/Wbem, mtime 1655114433): 172 files, no impossibilities.
+# . (key c:/Users/krudenko/Workspace/ST/Projects/STM32F103C6T6A_Initial, mtime 1656332094): 14 files, no impossibilities.
+# Core/Src (key c:/Users/krudenko/Workspace/ST/Projects/STM32F103C6T6A_Initial/Core/Src, mtime 1655833767): 3 files, no impossibilities so far.
+# C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility (key C:/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility, mtime 1655804040): 11 files, no impossibilities.
+# C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (key C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common, mtime 1628178925): 10 files, no impossibilities.
+# bui 
+ld: could not be stat'd.
+# C:\Users\krudenko\Workspace\ST\ST_Toolchain\netcat-win32-1.12 (key C:/Users/krudenko/Workspace/ST/ST_Toolchain/netcat-win32-1.12, mtime 1655840844): 13 files, no impossibilities.
+# C:\Windows\System32\OpenSSH\: could not be stat'd.
+# C:\Program Files\PuTTY\ (key C:/Program Files/PuTTY/, mtime 1655757231): 12 files, no impossibilities.
+# C:\Program Files\Intel\Intel(R) Management Engine Components\DAL (key C:/Program Files/Intel/Intel(R) Management Engine Components/DAL, mtime 1628179260): 4 files, no impossibilities.
+# C:\Windows (key C:/Windows, mtime 1655804023): 123 files, no impossibilities.
+# C:\Users\krudenko\Workspace\ST\ST_Toolchain\stlink-1.7.0-x86_64-w64-mingw32\bin (key C:/Users/krudenko/Workspace/ST/ST_Toolchain/stlink-1.7.0-x86_64-w64-mingw32/bin, mtime 1619304258): 6 files, no impossibilities.
+# C:\Users\krudenko\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/krudenko/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1655559330): 4 files, no impossibilities.
+# C:\Users\krudenko\Workspace\ST\ST_Toolchain\GnuWin32\bin (key C:/Users/krudenko/Workspace/ST/ST_Toolchain/GnuWin32/bin, mtime 1655823774): 9 files, no impossibilities.
+# C:\Program Files\Git\cmd (key C:/Program Files/Git/cmd, mtime 1655559633): 8 files, no impossibilities.
+# C:\Windows\system32 (key C:/Windows/system32, mtime 1655838037): 2885 files, no impossibilities.
+# C:\Users\krudenko\Workspace\ST\ST_Toolchain\arm-gcc\10_2020-q4-major\bin (key C:/Users/krudenko/Workspace/ST/ST_Toolchain/arm-gcc/1 
+0_2020-q4-major/bin, mtime 1655823100): 35 files, no impossibilities.
+# C:\Users\krudenko\Workspace\ST\ST_Toolchain\openocd-v0.11.0-i686-w64-mingw32\bin (key C:/Users/krudenko/Workspace/ST/ST_Toolchain/openocd-v0.11.0-i686-w64-mingw32/bin, mtime 1615125289): 9 files, no impossibilities.
+# Drivers/STM32F1xx_HAL_Driver/Src (key c:/Users/krudenko/Workspace/ST/Projects/STM32F103C6T6A_Initial/Drivers/STM32F1xx_HAL_Driver/Src, mtime 1655815288): No files, no impossibilities so far.
+# C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL (key C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL, mtime 1628179260): 7 files, no impossibilities.
+
+# 3370 files, no impossibilities in 22 directories.
+
+# Implicit Rules
+
+build/%.o: %.c Makefile | build
+#  commands to execute (from `makefile', line 160):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+	
+
+build/%.o: %.s Makefile | build
+#  commands to execute (from `makefile', line 163):
+	$(AS) -c $(CFLAGS) $< -o $@
+	
+
+build/%.hex: build/%.elf | build
+#  commands to execute (from `makefile', line 170):
+	$(HEX) $< $@
+	
+
+build/%.bin: build/%.elf | build
+#  commands to execute (from `makefile', line 173):
+	$(BIN) $< $@
+	
+
+# 4 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+# Not a target:
+build/stm32f1xx_hal_msp.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/main.o: Core/Src/main.c makefile | build
+#  Implicit rule search has been done.
+#  Impli 
+cit/static pattern stem: `main'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/2=0%
+#  commands to execute (from `makefile', line 160):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+	
+
+# Not a target:
+build/stm32f1xx_hal_gpio.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/stm32f1xx_hal.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: build/STM32F103C6T6A_Initial.elf build/STM32F103C6T6A_Initial.hex build/STM32F103C6T6A_Initial.bin
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/2=0%
+
+# Not a target:
+build/stm32f1xx_hal_rcc.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/stm32f1xx_hal_exti.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/startup_stm32f103x6.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/stm32f1xx_it.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/stm32f1xx_hal_gpio_ex.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-27 15:35:21
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table  
+stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build:
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := build
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/11=9%
+#  commands to execute (from `makefile', line 176):
+	mkdir $@
+	
+
+# Not a target:
+build/stm32f1xx_hal_rcc_ex.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+flashSt: build/STM32F103C6T6A_Initial.bin
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 192):
+	st-flash --reset write $< 0x8000000
+	
+
+# Not a target:
+build/stm32f1xx_hal_uart.o:
+#  Implicit rule search has not been done.
+#  Mo 
+dification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/STM32F103C6T6A_Initial.hex:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/stm32f1xx_hal_tim.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/STM32F103C6T6A_Initial.bin:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/system_stm32f1xx.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/STM32F103C6T6A_Initial.elf: build/main.o build/stm32f1xx_it.o build/stm32f1xx_hal_msp.o build/stm32f1xx_hal_gpio_ex.o build/stm32f1xx_hal_tim.o build/stm32f1xx_hal_tim_ex.o build/stm32f1xx_hal_uart.o build/stm32f1xx_hal.o build/stm32f1xx_hal_rcc.o build/stm32f1xx_hal_rcc_ex.o build/stm32f1xx_hal_gpio.o build/stm32f1xx_hal_dma.o build/stm32f1xx_hal_cortex.o build/stm32f1xx_hal_pwr.o build/stm32f1xx_hal_flash.o build/stm32f1xx_hal_flash_ex.o build/stm32f1xx_hal_exti.o build/system_stm32f1xx.o build/startup_stm32f103x6.o makefile
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/2=0%
+#  commands to execute (from `makefile', line 166):
+	$(CC) $(OBJECTS) $(LDFLAGS) -o $@
+	$(SZ) $@
+	
+
+# Not a target:
+build/stm32f1xx_hal_pwr.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 182):
+	-rm -fR $(BUILD_DIR)
+	
+
+# Not a target:
+build/stm32f1xx_h 
+al_flash.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/stm32f1xx_hal_dma.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/stm32f1xx_hal_tim_ex.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+flash: build/STM32F103C6T6A_Initial.bin
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 187):
+	st-flash --reset write $< 0x8000000
+	
+
+flashOpenOcd: all
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 198):
+	openocd -f interface/stlink.cfg -f target/stm32f1x.cfg -c "program $(BUILD_DIR)/$(TARGET).elf verify reset exit"
+	
+
+# Not a target:
+Core/Src/main.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-21 21:08:11
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+build/stm32f1xx_hal_cortex.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/stm32f1xx_hal_flash_ex.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-tab 
+le stats:
+# Load=32/1024=3%, Rehash=0, Collisions=8/84=10%
+# VPATH Search Paths
+
+vpath %.c Core/Src;Drivers/STM32F1xx_HAL_Driver/Src
+
+# 1 `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Mon Jun 27 15:35:46 2022
+
+ 

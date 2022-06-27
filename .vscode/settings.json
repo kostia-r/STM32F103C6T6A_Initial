@@ -1,0 +1,14 @@
+{
+    "makefile.extensionOutputFolder": "./.vscode",
+    "files.trimTrailingWhitespace": true,
+    "C_Cpp.default.configurationProvider": "ms-vscode.makefile-tools",
+    "cortex-debug.armToolchainPath": "${env:ST_TOOLCHAIN_DIR}/arm-gcc/10_2020-q4-major/bin/",
+    "cortex-debug.gdbPath": "${env:ST_TOOLCHAIN_DIR}/arm-gcc/10_2020-q4-major/bin/arm-none-eabi-gdb.exe",
+    "cortex-debug.stutilPath": "${env:ST_TOOLCHAIN_DIR}/stlink-1.7.0-x86_64-w64-mingw32/bin/st-util.exe",
+    "cortex-debug.openocdPath": "${env:ST_TOOLCHAIN_DIR}/openocd-v0.11.0-i686-w64-mingw32/bin/openocd.exe",
+    "cortex-debug.registerUseNaturalFormat": false,
+    "files.associations": {
+        "main.h": "c",
+        "string.h": "c"
+    }
+}
